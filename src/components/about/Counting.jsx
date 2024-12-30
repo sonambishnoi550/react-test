@@ -11,7 +11,7 @@ function Counting() {
         <div className="container mt-5">
             <h2 className="text-center mb-5">For Loop</h2>
             <div className="d-flex justify-content-center">
-                <ul className="d-flex gap-5">
+                <ul className="gap-5 justify-content-center d-flex flex-col">
                     {numbers.map((num, index) => (
                         <li
                             key={index}
