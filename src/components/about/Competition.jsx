@@ -23,47 +23,47 @@ const Compition = () => {
                     <div className="col-lg-6 sky py-5 rounded-4 ">
                         <div className="overflow-x">
                             <table >
-                                <tr className='border-bottom border-primary border-black'>
+                                <tr className='border-bottom border-primary border-black justify-content-between gap-5'>
                                     <th className='table-padding '></th>
                                     <th className='table-padding text-center table-x-padding bg-white br-top-table mx-2 table-heading'>Rift</th>
                                     <th className='table-padding text-center px-4  bg-white br-top-table table-heading'>Taxscouts</th>
                                     <th className='table-padding text-center table-x-padding bg-white br-top-table table-heading'>Coconut</th>
-                                    <th className='table-padding text-center table-x-padding cyan-color br-top-table table-heading'>Pie</th>
+                                    <th className='table-padding text-center table-x-padding light-green-color br-top-table table-heading'>Pie</th>
                                 </tr>
                                 <tr className='border-bottom border-primary border-black table-padding'>
                                     <th className='table-padding text-white table-text'>  Mobile App</th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/wrong.svg" alt="wrong" /></th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/wrong.svg" alt="wrong" /></th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/right.svg" alt="right" /></th>
-                                    <th className='table-padding text-center table-x-padding cyan-color'><img src="./assets/images/svg/right.svg" alt="right" /></th>
+                                    <th className='table-padding text-center table-x-padding light-green-color'><img src="./assets/images/svg/right.svg" alt="right" /></th>
                                 </tr>
                                 <tr className='border-bottom border-primary border-black table-padding'>
                                     <th className='table-padding text-white table-text'>  Invoicing</th>
                                     <th className='table-padding text-center table-x-padding bg-white '><img src="./assets/images/svg/wrong.svg" alt="wrong" /></th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/wrong.svg" alt="wrong" /></th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/right.svg" alt="right" /></th>
-                                    <th className='table-padding text-center table-x-padding cyan-color'><img src="./assets/images/svg/right.svg" alt="right" /></th>
+                                    <th className='table-padding text-center table-x-padding light-green-color'><img src="./assets/images/svg/right.svg" alt="right" /></th>
                                 </tr>
                                 <tr className='border-bottom border-primary border-black table-padding'>
                                     <th className='table-padding text-white table-text'>  Bookkeeping</th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/wrong.svg" alt="wrong" /></th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/wrong.svg" alt="wrong" /></th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/right.svg" alt="right" /></th>
-                                    <th className='table-padding text-center table-x-padding cyan-color'><img src="./assets/images/svg/right.svg" alt="right" /></th>
+                                    <th className='table-padding text-center table-x-padding light-green-color'><img src="./assets/images/svg/right.svg" alt="right" /></th>
                                 </tr>
                                 <tr className='border-bottom border-primary border-black table-padding '>
                                     <th className='table-padding text-white table-text'>Accountancy support</th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/right.svg" alt="right" /></th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/right.svg" alt="right" /></th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/wrong.svg" alt="wrong" /></th>
-                                    <th className='table-padding text-center table-x-padding cyan-color'><img src="./assets/images/svg/right.svg" alt="right" /></th>
+                                    <th className='table-padding text-center table-x-padding light-green-color'><img src="./assets/images/svg/right.svg" alt="right" /></th>
                                 </tr>
                                 <tr className='border-bottom border-primary border-black table-padding'>
                                     <th className='table-padding text-white table-text'>Tax Filing</th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/right.svg" alt="right" /></th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/right.svg" alt="right" /></th>
                                     <th className='table-padding text-center table-x-padding bg-white'><img src="./assets/images/svg/right.svg" alt="right" /></th>
-                                    <th className='table-padding text-center table-x-padding cyan-color'><img src="./assets/images/svg/right.svg" alt="right" /></th>
+                                    <th className='table-padding text-center table-x-padding light-green-color'><img src="./assets/images/svg/right.svg" alt="right" /></th>
                                 </tr>
                                 <tr className='  table-padding'>
                                     <th className='table-padding text-white table-text'>Fee</th>
@@ -73,7 +73,7 @@ const Compition = () => {
                                         per year</th>
                                     <th className='table-padding table-data max-w-50 px-4 bg-white br-bottom-table'>£9.00 p/m
                                         £108 per year</th>
-                                    <th className='table-padding table-data max-w-90 cyan-color br-bottom-table'>£6.99 or £9.99p/m
+                                    <th className='table-padding table-data max-w-90 light-green-color br-bottom-table'>£6.99 or £9.99p/m
                                         £59.99 review fee
                                         £143.87 per year</th>
                                 </tr>
