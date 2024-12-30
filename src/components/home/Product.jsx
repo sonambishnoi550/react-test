@@ -7,10 +7,10 @@ const Product = () => {
                 <div className='row max-w-1128 gap-4 d-flex'>
                     <div className=' product-card-spacing light-blue col-xl-4  radius-16 col-12'>
                         <h1 className='main-heading'>Product</h1>
-                        <p className='product-pera'>Due to the confusing nature of tax, the lack of awareness of the tax deduction system and the complicated tax refund process, we have experienced exceptional demand from the public for our service. From release in 2015, our original tax product has achieved 60x growth, bringing in over £5m revenue in 2022.</p>
-                        <p className='product-pera'>With over 8 years of industry experience, we have listened to our clients to evolve our app into a whole-of-market product that will also meet the needs of the tax return market as well as the tax refund market. The App is packed with all the features users need to meet the requirements of the upcoming switch to Making Tax Digital.</p>
-                        <p className='product-pera'>Once we establish the ourself in the UK, we plan to expand into other territories to take advantage of the £500 billion global market</p>
-                        <p className='product-pera'>We have highlighted some of our key features that will be the cornerstone of our product launch in April 23.</p>
+                        <p className='product-pera mb-2'>Due to the confusing nature of tax, the lack of awareness of the tax deduction system and the complicated tax refund process, we have experienced exceptional demand from the public for our service. From release in 2015, our original tax product has achieved 60x growth, bringing in over £5m revenue in 2022.</p>
+                        <p className='product-pera mb-2'>With over 8 years of industry experience, we have listened to our clients to evolve our app into a whole-of-market product that will also meet the needs of the tax return market as well as the tax refund market. The App is packed with all the features users need to meet the requirements of the upcoming switch to Making Tax Digital.</p>
+                        <p className='product-pera mb-2'>Once we establish the ourself in the UK, we plan to expand into other territories to take advantage of the £500 billion global market</p>
+                        <p className='product-pera mb-2'>We have highlighted some of our key features that will be the cornerstone of our product launch in April 23.</p>
                     </div>
                     <div className='light-blue py-133 px-26 grid-box max-w-674 max-lg-py max-sm-py'>
                         <div className='g-items g-items1 '>
