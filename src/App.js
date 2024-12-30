@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './components/view/About';
 import Home from './components/view/Home';
 
-
 function App() {
     return (
         <div>

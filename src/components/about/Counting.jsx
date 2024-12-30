@@ -9,7 +9,7 @@ function Counting() {
 
     return (
         <div className="container mt-4">
-            <h2 className="text-center mb-3">Countdown</h2>
+            <h2 className="text-center mb-3">For Loop</h2>
             <div className="d-flex justify-content-center">
                 <ul className="list-group list-group-horizontal">
                     {numbers.map((num, index) => (

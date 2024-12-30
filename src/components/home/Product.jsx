@@ -4,7 +4,7 @@ const Product = () => {
     return (
         <div className='product-py-72 dark-black product-px'>
             <div className='container'>
-                <div className='row max-w-1128px gap-4 d-flex'>
+                <div className='row max-w-1128 gap-4 d-flex'>
                     <div className=' product-card-spacing light-blue col-xl-4  radius-16 col-12'>
                         <h1 className='main-heading'>Product</h1>
                         <p className='product-pera'>Due to the confusing nature of tax, the lack of awareness of the tax deduction system and the complicated tax refund process, we have experienced exceptional demand from the public for our service. From release in 2015, our original tax product has achieved 60x growth, bringing in over £5m revenue in 2022.</p>

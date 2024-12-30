@@ -5,9 +5,9 @@ import { useParams } from 'react-router-dom';
 
 function App() {
     return (
-        <div className="container pb-5">
+        <div className="container">
             <h1>Map Cards</h1>
-            <div className=" d-flex justify-content-between gap-4">
+            <div className=" d-flex justify-content-between gap-4 max-md-flex-wrap">
                 <div>
                     <Link to="/map-card-1" className="card-link">
                         <div className="card">
