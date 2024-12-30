@@ -8,14 +8,14 @@ function Counting() {
     }
 
     return (
-        <div className="container mt-4">
-            <h2 className="text-center mb-3">For Loop</h2>
+        <div className="container mt-5">
+            <h2 className="text-center mb-5">For Loop</h2>
             <div className="d-flex justify-content-center">
-                <ul className="list-group list-group-horizontal">
+                <ul className="d-flex gap-5">
                     {numbers.map((num, index) => (
                         <li
                             key={index}
-                            className="list-group-item list-group-item-primary mx-1"
+                            className="list-group-item  mx-1"
                         >
                             {num}
                         </li>

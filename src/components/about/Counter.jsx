@@ -14,7 +14,7 @@ function Counter() {
 
     return (
         <div className="container mt-5">
-            <h2 className="text-center mb-4">React Counter</h2>
+            <h2 className="text-center mb-4 Map-heading">Counter</h2>
             <div className="d-flex justify-content-center align-items-center">
                 <button
                     className="btn btn-danger mx-2"

@@ -15,10 +15,10 @@ const Counter = () => {
 
     return (
         <div className="container text-center mt-5">
-            <div className="card mx-auto" style={{ width: '18rem' }}>
+            <div className="card mx-auto max-w-300">
                 <div className="card-body">
-                    <h5 className="card-title">Counting to 100</h5>
-                    <p className="card-text display-4">{count}</p>
+                    <h5 className="">Counting</h5>
+                    <p className="count">{count}</p>
                 </div>
             </div>
         </div>
