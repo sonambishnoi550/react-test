@@ -5,38 +5,30 @@ import { useParams } from 'react-router-dom';
 
 function App() {
     return (
-        <div className="container">
-            <h1>Map Cards</h1>
-            <div className=" d-flex justify-content-between gap-4 max-md-flex-wrap">
+        <div className="container py-5">
+            <h1 className='Map-heading'>Map Cards</h1>
+            <div className=" d-flex md-justify-content-between gap-4 max-md-flex-wrap justify-content-center">
                 <div>
-                    <Link to="/map-card-1" className="card-link">
-                        <div className="card">
-                            <div className="card-body">
-                                <h5>Lorem</h5>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, enim.</p>
-                            </div>
+                    <Link to="/map-card-1" >
+                        <div className="card p-4">
+                                <h5 className='Card-text'>Lorem</h5>
+                            <p className='Card-pera'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, enim.</p>
                         </div>
                     </Link>
                 </div>
                 <div >
                     <Link to="/map-card-2" className="card-link">
-                        <div className="card">
-                    
-                            <div className="card-body">
-                                <h5>lorem</h5>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, laborum.</p>
-                            </div>
+                        <div className="card p-4">
+                            <h5 className='Card-text'>Lorem</h5>
+                            <p className='Card-pera'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, enim.</p>
                         </div>
                     </Link>
                 </div>
                 <div >
                     <Link to="/map-card-3" className="card-link">
-                        <div className="card">
-                           
-                            <div className="card-body">
-                                <h5>lorem</h5>
-                                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, debitis.</p>
-                            </div>
+                        <div className="card p-4">
+                            <h5 className='Card-text'>Lorem</h5>
+                            <p className='Card-pera'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, enim.</p>
                         </div>
                     </Link>
                 </div>

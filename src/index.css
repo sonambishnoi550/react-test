@@ -117,6 +117,21 @@ padding-bottom: 133px;
     grid-column: 2/4;
     grid-row: 3/4;
 }
+.Card-text{
+    text-decoration: none !important;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.Map-heading{
+    text-align: center;
+    font-size: 40px;
+}
+.Card-pera{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
 .g-items11 {
     grid-column: 4/5;
     grid-row: 3/4;
