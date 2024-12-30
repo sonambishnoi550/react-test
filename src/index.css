@@ -12,11 +12,7 @@ body {
     src: url("../public/assets/images/fonts/AvanttTRIAL-SemiBold-BF6721a86b1576e.otf");
     font-weight: 600;
 }
-.product-py-72 {
-    padding-top: 72px;
-    padding-bottom: 72px;
-    max-width: 1440px;
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +20,11 @@ body {
     list-style-type: none !important;
     text-decoration: none !important;
     scroll-behavior: smooth;
+}
+.product-py-72 {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    max-width: 1440px;
 }
 
 .dark-black {
@@ -48,7 +49,6 @@ body {
 }
 
 .main-heading {
-    font-family: Avantt;
     font-size: 46px;
     font-weight: 600;
     line-height: 59.8px;
@@ -70,7 +70,6 @@ body {
 .product-pera {
     max-width: 369px;
     color: white;
-    font-family: Avantt;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -89,7 +88,6 @@ body {
 .px-26 {
     padding-left: 26px !important;
     padding-right: 26px !important;
-
 }
 
 .grid-image-1 {
@@ -161,13 +159,7 @@ body {
     grid-column: 2/4;
     grid-row: 3/4;
 }
-
-.card-link {
-    text-decoration: none !important;
-}
-
 .Card-text {
-    text-decoration: none !important;
     color: black;
     text-align: center;
     font-size: 30px;
@@ -224,13 +216,11 @@ body {
 }
 
 .map-text {
-    font-family: Avantt;
     font-size: 14px;
     font-weight: 400;
     line-height: 16.8px;
     text-align: left;
     color: white;
-
 }
 
 .max-w-674 {
@@ -277,7 +267,6 @@ body {
 }
 
 .table-heading {
-    font-family: Avantt;
     font-size: 12px;
     font-weight: 600;
     line-height: 15.6px;
@@ -285,7 +274,6 @@ body {
 }
 
 .table-text {
-    font-family: Avantt;
     font-size: 14px;
     font-weight: 400;
     line-height: 16.8px;
@@ -293,7 +281,6 @@ body {
 }
 
 .table-data {
-    font-family: Avantt;
     font-size: 8px;
     font-weight: 400;
     line-height: 9.6px;
@@ -345,7 +332,6 @@ body {
     .g-items1 {
         grid-column: 5/6;
         grid-row: 1/2;
-
     }
 
     .g-items6 {

@@ -2,10 +2,10 @@ import React from 'react'
 
 const Product = () => {
     return (
-        <div className='product-py-72 dark-black product-px'>
+        <div className='product-py-72 dark-black product-px min-vh-100'>
             <div className='container max-w-1140px'>
-                <div className='row gap-4 d-flex'>
-                    <div className=' product-card-spacing light-blue col-xl-4  radius-16 col-12'>
+                <div className='flex-xl-row d-flex flex-column gap-4'>
+                    <div className=' product-card-spacing light-blue radius-16'>
                         <h1 className='main-heading'>Product</h1>
                         <p className='product-pera mb-2'>Due to the confusing nature of tax, the lack of awareness of the tax deduction system and the complicated tax refund process, we have experienced exceptional demand from the public for our service. From release in 2015, our original tax product has achieved 60x growth, bringing in over £5m revenue in 2022.</p>
                         <p className='product-pera mb-2'>With over 8 years of industry experience, we have listened to our clients to evolve our app into a whole-of-market product that will also meet the needs of the tax return market as well as the tax refund market. The App is packed with all the features users need to meet the requirements of the upcoming switch to Making Tax Digital.</p>
@@ -49,7 +49,6 @@ const Product = () => {
                         <div className='g-items g-items12'>
                             <img className='grid-image-2' src="./assets/images/png/grid-image-12.png" alt="image" />
                         </div>
-
                     </div>
                 </div>
             </div>
