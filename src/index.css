@@ -407,6 +407,10 @@ thead tr th {
 }
 
 @media(max-width:575.99px) {
+    .main-heading {
+      font-size: 32px;
+      padding-bottom: 10px;
+        }
     .product-px {
         padding-left: 10px;
         padding-right: 10px;
@@ -482,10 +486,6 @@ thead tr th {
         padding-bottom: 30px;
     }
 
-    .main-heading {
-        padding-bottom: 20px;
-        margin: 0;
-    }
 
     .product-card-spacing {
         padding: 16px !important;
