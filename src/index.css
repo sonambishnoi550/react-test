@@ -9,7 +9,7 @@
     font-family: 'avantt';
     src: url("../public/assets/fonts/AvanttTRIAL-SemiBold-BF6721a86b1576e.otf");
     font-weight: 600;
-}
+} 
 
 * {
     margin: 0;
@@ -246,9 +246,8 @@
 
 .Competition-td {
     padding: 18px 21px;
-    background-color: #fff;
-    border-top: 0.75px solid #000000;
-    border-bottom: 0.75px solid #000000;
+    border-top: 0.75px solid;
+    border-bottom: 0.75px solid;
 }
 
 .Competition-td:last-child {
