@@ -1,6 +1,7 @@
 body {
     font-family: 'avantt' !important;
 }
+
 @font-face {
     font-family: 'avantt';
     src: url("../public/assets/images/fonts/AvanttTRIAL-Regular-BF6721a86b1a848.otf");
@@ -21,6 +22,7 @@ body {
     text-decoration: none !important;
     scroll-behavior: smooth;
 }
+
 .product-py-72 {
     padding-top: 72px;
     padding-bottom: 72px;
@@ -103,7 +105,7 @@ body {
 
 .g-items {
     border-radius: 4px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .g-items1 {
@@ -155,6 +157,7 @@ body {
     grid-column: 2/4;
     grid-row: 3/4;
 }
+
 .Card-text {
     color: black;
     text-align: center;
@@ -223,44 +226,10 @@ body {
     max-width: 674px !important;
 }
 
-.skyblue-color {
-    background-color: #026070;
-}
-
 .light-green-color {
     background-color: #56E3CB;
 }
 
-.table-padding {
-    padding: 16px;
-}
-
-.br-top-table {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.br-bottom-table {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.overflow-x {
-    overflow-x: auto !important;
-}
-
-.table-x-padding {
-    padding-left: 37px;
-    padding-right: 37px;
-}
-
-.max-w-90 {
-    max-width: 90px;
-}
-
-.max-w-50 {
-    max-width: 50px;
-}
 .competition-container {
     max-width: 1160px !important;
     margin: 0 auto;
@@ -274,113 +243,115 @@ body {
 }
 
 .competition-table {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: #026070;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #026070;
 }
+
 .second-heading {
-  font-size: 46px;
-  font-weight: 600;
-  line-height: 59.8px;
-  padding-bottom: 50px;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 59.8px;
+    padding-bottom: 50px;
 }
 
 .custom-max-w {
-  max-width: 481px !important;
+    max-width: 481px !important;
 }
 
 .border-radius-xl {
-  border-radius: 12px;
+    border-radius: 12px;
 }
 
 .table-bg {
-  background-color: #026070;
+    background-color: #026070;
 }
 
 .border-b {
-  border-bottom: 0.75px solid #000000;
+    border-bottom: 0.75px solid #000000;
 }
 
 .table-parent {
-  justify-content: space-around;
+    justify-content: space-around;
 }
 
 .cards-img {
-  width: 320px;
-  height: 555px;
-  object-fit: cover;
+    width: 320px;
+    height: 555px;
+    object-fit: cover;
 }
 
 .max-w-sm {
-  max-width: 95px !important;
+    max-width: 95px !important;
 }
 
 .table-heading {
-  font-size: 12px;
-  line-height: 15.6px;
-  color: #000000;
-  padding: 27px 19px !important;
-  width: 95px !important;
-  font-weight: 600;
+    font-size: 12px;
+    line-height: 15.6px;
+    color: #000000;
+    padding: 27px 19px !important;
+    width: 95px !important;
+    font-weight: 600;
 }
 
 .custom-table-bg {
-  background: #026070 !important;
-  border-radius: 12px !important;
+    background: #026070 !important;
+    border-radius: 12px !important;
 }
 
 .bg-dark-aqua {
-  background-color: #56E3CB !important;
+    background-color: #56E3CB !important;
 }
 
 
 .custom-table-bg {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 10px 0;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px 0;
 }
 
 
 .Competition-td {
-  padding: 18px 21px;
-  background-color: #fff;
-  border-top: 0.75px solid #000000;
-  border-bottom: 0.75px solid #000000;
+    padding: 18px 21px;
+    background-color: #fff;
+    border-top: 0.75px solid #000000;
+    border-bottom: 0.75px solid #000000;
 }
 
 .Competition-td:last-child {
-  background-color: #e8f5e9;
+    background-color: #e8f5e9;
 }
 
 .table-heading {
-  padding: 12px 15px;
+    padding: 12px 15px;
 }
 
 table th:first-child,
 table td:first-child {
-  border-left: none;
+    border-left: none;
 }
 
 .x-radius-top {
-  border-top-left-radius: 6px !important;
-  border-top-right-radius: 6px !important;
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
 }
 
 .x-radius-bottom {
-  border-bottom-left-radius: 6px !important;
-  border-bottom-right-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
 }
 
 thead tr th {
-  padding: 12px 15px;
+    padding: 12px 15px;
 }
 
 .border-b-none {
-  border-bottom: none !important;
+    border-bottom: none !important;
 }
+
 .fee-heading {
-  font-size: 8px;
-  max-width: 64px;
+    font-size: 8px;
+    max-width: 64px;
 }
 
 .use-effect-text {
@@ -390,7 +361,8 @@ thead tr th {
 .cursor-pointer {
     cursor: pointer;
 }
-.px-sm{
+
+.px-sm {
     padding-left: 0;
     padding-right: 0;
 }
@@ -410,10 +382,11 @@ thead tr th {
         padding-top: 70px;
         padding-bottom: 70px;
     }
-        .px-sm {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
+
+    .px-sm {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media(max-width:1023.98px) {
@@ -421,20 +394,19 @@ thead tr th {
         padding-bottom: 30px;
         margin: 0;
     }
-        
 
-.competition-text {
-    max-width: none;
-    width: 100%;
-}
+    .competition-text {
+        max-width: none;
+        width: 100%;
+    }
 
     .max-md-flex-wrap {
         flex-wrap: wrap;
     }
 
     .product-px {
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .g-items5 {
@@ -505,9 +477,13 @@ thead tr th {
 
 @media(max-width:575.99px) {
     .product-px {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
+          .px-26 {
+              padding-left: 10px !important;
+              padding-right: 10px !important;
+          }
 
     .g-items1 {
         grid-column: 1/3;

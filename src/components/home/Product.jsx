@@ -12,7 +12,7 @@ const Product = () => {
                         <p className='product-pera mb-2'>Once we establish the ourself in the UK, we plan to expand into other territories to take advantage of the £500 billion global market</p>
                         <p className='product-pera mb-2'>We have highlighted some of our key features that will be the cornerstone of our product launch in April 23.</p>
                     </div>
-                    <div className='light-blue radius-16 py-133 px-26 grid-box max-w-674 max-lg-py max-sm-py'>
+                    <div className='light-blue radius-16 py-133 px-26 grid-box max-w-674 max-lg-py max-sm-py '>
                         <div className='g-items g-items1 '>
                             <img className='grid-image-1' src="./assets/images/png/grid-image-1.png" alt="image" />
                         </div>
