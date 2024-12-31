@@ -104,15 +104,15 @@ export const COMPETITION_ITEMS = [
 ];
 export const CARDS_ITEMS = [
     {
-        heading: 'Card 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
+        heading: 'Lorem',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia'
     },
     {
-        heading: 'Card 2',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
+        heading: 'Lorem',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia '
     },
     {
-        heading: 'Card 3',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
+        heading: 'Lorem',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia '
     }
 ]
