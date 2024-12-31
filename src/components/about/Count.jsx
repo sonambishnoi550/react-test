@@ -17,8 +17,8 @@ const Counter = () => {
         <div className="container text-center mt-5">
             <div className="card mx-auto max-w-300">
                 <div className="card-body">
-                    <h5 className="">Counting</h5>
-                    <p className="count">{count}</p>
+                    <h5 className="">Counting UseEffect</h5>
+                    <p className="count m-0">{count}</p>
                 </div>
             </div>
         </div>

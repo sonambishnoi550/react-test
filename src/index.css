@@ -250,20 +250,13 @@ body {
     justify-content: space-around;
 }
 
-.cards-img {
-    width: 320px;
-    height: 555px;
-    object-fit: cover;
-}
-
-.max-w-sm {
+.max-w-95 {
     max-width: 95px !important;
 }
 
 .table-heading {
     font-size: 12px;
     line-height: 15.6px;
-    color: #000000;
     padding: 27px 19px !important;
     width: 95px !important;
     font-weight: 600;
@@ -322,13 +315,9 @@ thead tr th {
     border-bottom: none !important;
 }
 
-.fee-heading {
+.fee-text {
     font-size: 8px;
     max-width: 64px;
-}
-
-.use-effect-text {
-    font-size: 24px;
 }
 
 .cursor-pointer {

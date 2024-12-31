@@ -18,11 +18,11 @@ const Cards = () => {
                 <div className="col-lg-4 col-md-6 col-sm-12" key={i}>
                     <div
                         onClick={() => handleClick(card.heading)}
-                        className={`card p-2 ${selectedCard === card.heading.replace(/ /g, '-') ? 'bg-black' : ''}`}>
-                        <h2 className={`text-center cursor-pointer ${selectedCard === card.heading.replace(/ /g, '-') ? 'text-white' : ''}`} >
+                        className={`card bg-white p-2 `}>
+                        <h2 className={`text-center cursor-pointer text-black`} >
                             {card.heading}
                         </h2>
-                        <p className={`text-center cursor-pointer ${selectedCard === card.heading.replace(/ /g, '-') ? 'text-white' : ''}`}>
+                        <p className={`text-center cursor-pointer text-black`}>
             {card.description}
         </p>
                     </div >
