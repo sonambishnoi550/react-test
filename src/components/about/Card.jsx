@@ -2,7 +2,7 @@ import React from 'react';
 import { useSearchParams } from 'react-router';
 import { CARDS_ITEMS } from '../../utils/helper';
 
-const Cards = () => {
+const Card = () => {
     const [searchParams, setSearchParams] = useSearchParams();
 
     const handleClick = (card) => {
@@ -32,4 +32,4 @@ const Cards = () => {
     );
 };
 
-export default Cards;
+export default Card;
