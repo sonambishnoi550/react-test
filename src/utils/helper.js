@@ -1,4 +1,4 @@
-export const COMPETITION_LIST = [
+export const COMPETITION_ITEMS = [
     {
         brand: "Mobile App",
         rift: (<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -102,7 +102,7 @@ export const COMPETITION_LIST = [
         pie: "£6.99 or £9.99p/m £59.99 review fee £143.87 per year",
     },
 ];
-export const CARDS_LIST = [
+export const CARDS_ITEMS = [
     {
         heading: 'Card 1',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'

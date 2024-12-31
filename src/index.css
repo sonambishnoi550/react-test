@@ -153,6 +153,7 @@ body {
     grid-column: 2/4;
     grid-row: 3/4;
 }
+
 .g-items11 {
     grid-column: 4/5;
     grid-row: 3/4;
@@ -359,14 +360,15 @@ thead tr th {
         padding-left: 10px;
         padding-right: 10px;
     }
-         .main-heading {
-             padding-bottom: 30px;
-             margin: 0;
-         }
+
+    .main-heading {
+        padding-bottom: 30px;
+        margin: 0;
+    }
 }
 
 @media(max-width:1023.98px) {
-   
+
 
     .competition-text {
         max-width: none;
@@ -453,10 +455,11 @@ thead tr th {
         padding-left: 10px;
         padding-right: 10px;
     }
-          .px-26 {
-              padding-left: 10px !important;
-              padding-right: 10px !important;
-          }
+
+    .px-26 {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
 
     .g-items1 {
         grid-column: 1/3;

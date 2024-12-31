@@ -1,5 +1,5 @@
 import React from 'react'
-import { COMPETITION_LIST } from '../../utils/helper'
+import { COMPETITION_ITEMS } from '../../utils/helper'
 
 const Competition = () => {
     return (
@@ -34,7 +34,7 @@ const Competition = () => {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {COMPETITION_LIST.map((item, i) => (
+                                    {COMPETITION_ITEMS.map((item, i) => (
                                         <tr key={i}>
                                             <td className={`text-white fw-normal Competition-td bg-transparent border-b-none ${i === 3 ? 'max-w-sm' : ''}`}>{item.brand}</td>
                                             <td className={`bg-white Competition-td border-b-none text-center fee-heading ${i === 5 ? 'x-radius-bottom ' : ''} `}>{item.rift}</td>

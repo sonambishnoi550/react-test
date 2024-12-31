@@ -15,7 +15,7 @@ function Counting() {
                     {numbers.map((num, index) => (
                         <li
                             key={index}
-                            className="list-group-item  mx-1"
+                            className="list-group-item mx-1"
                         >
                             {num}
                         </li>

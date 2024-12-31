@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSearchParams } from 'react-router';
-import { CARDS_LIST } from '../../utils/helper';
+import { CARDS_ITEMS } from '../../utils/helper';
 
 const Cards = () => {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -14,7 +14,7 @@ const Cards = () => {
     return (
         <div className="container row row-gap-4 mx-auto py-5">
             <h2 className=' text-black text-center'>Card Params</h2>
-            {CARDS_LIST.map((card, i) => (
+            {CARDS_ITEMS.map((card, i) => (
                 <div className="col-lg-4 col-md-6 col-sm-12" key={i}>
                     <div
                         onClick={() => handleClick(card.heading)}
