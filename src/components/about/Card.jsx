@@ -13,7 +13,7 @@ const Cards = () => {
 
     return (
         <div className="container row row-gap-4 mx-auto py-5">
-            <h2 className=' text-black text-center'>Card Params</h2>
+            <h2 className=' text-black text-center'>Cards Params</h2>
             {CARDS_ITEMS.map((card, i) => (
                 <div className="col-lg-4 col-md-6 col-sm-12" key={i}>
                     <div
