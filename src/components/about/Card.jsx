@@ -9,7 +9,7 @@ const Card = () => {
         setSearchParams({ card: card.replace(/ /g, '-') });
     };
 
-    const selectedCard = searchParams.get('card');
+    const Card = searchParams.get('card');
 
     return (
         <div className="container row row-gap-4 mx-auto py-5">
