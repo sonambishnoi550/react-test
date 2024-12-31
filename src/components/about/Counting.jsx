@@ -6,7 +6,6 @@ function Counting() {
     for (let i = 9; i >= 0; i--) {
         numbers.push(i);
     }
-
     return (
         <div className="container mt-5">
             <h2 className="text-center mb-5">For Loop</h2>
@@ -25,5 +24,4 @@ function Counting() {
         </div>
     );
 }
-
 export default Counting;

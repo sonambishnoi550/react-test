@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
 const Counter = () => {
     const [count, setCount] = useState(0);
-
     useEffect(() => {
         if (count >= 100) return; 
 
@@ -12,7 +10,6 @@ const Counter = () => {
 
         return () => clearInterval(timer);
     }, [count]);
-
     return (
         <div className="container text-center mt-5">
             <div className="card mx-auto max-w-300">
