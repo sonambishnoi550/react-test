@@ -4,13 +4,13 @@ body {
 
 @font-face {
     font-family: 'avantt';
-    src: url("../public/assets/images/fonts/AvanttTRIAL-Regular-BF6721a86b1a848.otf");
+    src: url("../public/assets/fonts/AvanttTRIAL-Regular-BF6721a86b1a848.otf");
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'avantt';
-    src: url("../public/assets/images/fonts/AvanttTRIAL-SemiBold-BF6721a86b1576e.otf");
+    src: url("../public/assets/fonts/AvanttTRIAL-SemiBold-BF6721a86b1576e.otf");
     font-weight: 600;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .product-card-spacing {
-    padding: 16px 40px 16px 26px !important;
+    padding: 16px 26px 16px 26px !important;
 }
 
 .light-blue {
@@ -55,9 +55,7 @@ body {
     font-weight: 600;
     line-height: 59.8px;
     text-align: left;
-    color: white;
     padding-bottom: 50px;
-    margin: 0;
 }
 
 .radius-16 {
@@ -71,7 +69,6 @@ body {
 
 .product-pera {
     max-width: 369px;
-    color: white;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -100,12 +97,11 @@ body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    gap: 8px;
+    gap: 6px;
 }
 
 .g-items {
     border-radius: 4px;
-    /* overflow: hidden; */
 }
 
 .g-items1 {
@@ -157,24 +153,6 @@ body {
     grid-column: 2/4;
     grid-row: 3/4;
 }
-
-.Card-text {
-    color: black;
-    text-align: center;
-    font-size: 30px;
-}
-
-.Map-heading {
-    text-align: center;
-    font-size: 40px;
-}
-
-.Card-pera {
-    text-align: center;
-    color: black;
-    font-size: 16px;
-}
-
 .g-items11 {
     grid-column: 4/5;
     grid-row: 3/4;
@@ -224,10 +202,6 @@ body {
 
 .max-w-674 {
     max-width: 674px !important;
-}
-
-.light-green-color {
-    background-color: #56E3CB;
 }
 
 .competition-container {
@@ -303,13 +277,11 @@ body {
     background-color: #56E3CB !important;
 }
 
-
 .custom-table-bg {
     width: 100%;
     border-collapse: separate;
     border-spacing: 10px 0;
 }
-
 
 .Competition-td {
     padding: 18px 21px;
@@ -387,13 +359,14 @@ thead tr th {
         padding-left: 10px;
         padding-right: 10px;
     }
+         .main-heading {
+             padding-bottom: 30px;
+             margin: 0;
+         }
 }
 
 @media(max-width:1023.98px) {
-    .main-heading {
-        padding-bottom: 30px;
-        margin: 0;
-    }
+   
 
     .competition-text {
         max-width: none;
