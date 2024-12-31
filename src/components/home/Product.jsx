@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Product = () => {
     return (
         <div className='product-spacing dark-black product-px min-vh-100 '>
