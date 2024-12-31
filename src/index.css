@@ -234,7 +234,7 @@ body {
     max-width: 481px !important;
 }
 
-.border-radius-xl {
+.border-radius-sm {
     border-radius: 12px;
 }
 
@@ -265,16 +265,13 @@ body {
 .custom-table-bg {
     background: #026070 !important;
     border-radius: 12px !important;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px 0;
 }
 
 .bg-dark-aqua {
     background-color: #56E3CB !important;
-}
-
-.custom-table-bg {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 10px 0;
 }
 
 .Competition-td {
