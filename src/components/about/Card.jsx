@@ -1,7 +1,6 @@
 import React from 'react';
 import { useSearchParams } from 'react-router';
 import { CARDS_ITEMS } from '../../utils/helper';
-
 const Card = () => {
     const [searchParams, setSearchParams] = useSearchParams();
     const handleClick = (card) => {
