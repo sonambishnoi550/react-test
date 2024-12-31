@@ -25,10 +25,10 @@ const Cards = () => {
                         <p className={`text-center cursor-pointer text-black`}>
             {card.description}
         </p>
-                    </div >
-                </div >
+                    </div>
+                </div>
             ))}
-        </div >
+        </div>
     );
 };
 

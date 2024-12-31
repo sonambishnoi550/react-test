@@ -2,7 +2,7 @@ import React from 'react'
 
 const Product = () => {
     return (
-        <div className='product-py-72 dark-black product-px min-vh-100 '>
+        <div className='product-spacing dark-black product-px min-vh-100 '>
             <div className='container max-w-1140px'>
                 <div className='flex-xl-row d-flex flex-column gap-4'>
                     <div className=' product-card-spacing light-blue radius-16'>
