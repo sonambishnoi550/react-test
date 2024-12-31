@@ -6,7 +6,7 @@ const Competition = () => {
         <div className='min-vh-100 py-5 d-flex justify-content-center align-items-center dark-black'>
             <div className='competition-container row row-gap-4'>
                 <div className='col-lg-6 col-12'>
-                    <h1 className="text-white main-heading">Competition</h1>
+                    <h2 className="text-white main-heading">Competition</h2>
                     <p className="mb-2 text-white competition-text">
                         Given our best in class offering, we need to cut through by opting for penetration pricing.
                     </p>
