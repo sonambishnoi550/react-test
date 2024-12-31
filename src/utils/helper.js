@@ -102,3 +102,17 @@ export const COMPETITION_LIST = [
         pie: "£6.99 or £9.99p/m £59.99 review fee £143.87 per year",
     },
 ];
+export const CARDS_LIST = [
+    {
+        heading: 'Card 1',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
+    },
+    {
+        heading: 'Card 2',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
+    },
+    {
+        heading: 'Card 3',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
+    }
+]

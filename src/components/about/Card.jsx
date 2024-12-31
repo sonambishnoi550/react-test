@@ -1,57 +1,35 @@
 import React from 'react';
-import { Route, Routes, Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { useParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router';
+import { CARDS_LIST } from '../../utils/helper';
 
-function App() {
-    return (
-        <div className="container py-5">
-            <h1 className='Map-heading'>Map Cards</h1>
-            <div className=" d-flex md-justify-content-between gap-4 max-md-flex-wrap justify-content-center">
-                <div>
-                    <Link to="/card-1" className="card-link" >
-                        <div className="card p-4">
-                                <h5 className='Card-text'>Lorem</h5>
-                            <p className='Card-pera'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, enim.</p>
-                        </div>
-                    </Link>
-                </div>
-                <div >
-                    <Link to="/card-2" className="card-link">
-                        <div className="card p-4">
-                            <h5 className='Card-text'>Lorem</h5>
-                            <p className='Card-pera'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, enim.</p>
-                        </div>
-                    </Link>
-                </div>
-                <div >
-                    <Link to="/card-3" className="card-link ">
-                        <div className="card p-4">
-                            <h5 className='Card-text'>Lorem</h5>
-                            <p className='Card-pera'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, enim.</p>
-                        </div>
-                    </Link>
-                </div>
-            </div>
+const Cards = () => {
+    const [searchParams, setSearchParams] = useSearchParams();
 
-            <Routes>
-                <Route path="/card-:id" element={<MapPage />} />
-            </Routes>
-        </div>
-    );
-}
+    const handleClick = (card) => {
+        setSearchParams({ card: card.replace(/ /g, '-') });
+    };
 
-function MapPage() {
-    const { id } = useParams();
-    const formattedHeading = id.replace(/-/g, ' ');
+    const selectedCard = searchParams.get('card');
 
     return (
-        <div className="container">
-            <h2>{formattedHeading}</h2>
-            <div>
-            </div>
-        </div>
+        <div className="container row row-gap-4 mx-auto py-5">
+            <h2 className=' text-black text-center'>Card Params</h2>
+            {CARDS_LIST.map((card, i) => (
+                <div className="col-lg-4 col-md-6 col-sm-12" key={i}>
+                    <div
+                        onClick={() => handleClick(card.heading)}
+                        className={`card p-2 ${selectedCard === card.heading.replace(/ /g, '-') ? 'bg-black' : ''}`}>
+                        <h2 className={`text-center cursor-pointer ${selectedCard === card.heading.replace(/ /g, '-') ? 'text-white' : ''}`} >
+                            {card.heading}
+                        </h2>
+                        <p className={`text-center cursor-pointer ${selectedCard === card.heading.replace(/ /g, '-') ? 'text-white' : ''}`}>
+            {card.description}
+        </p>
+                    </div >
+                </div >
+            ))}
+        </div >
     );
-}
+};
 
-export default App;
+export default Cards;
