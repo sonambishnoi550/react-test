@@ -11,7 +11,6 @@ function Counter() {
     const decrement = () => {
         setCount(count - 1);
     };
-
     return (
         <div className="container mt-5">
             <h2 className="text-center mb-4 Map-heading">Counter UseState</h2>
