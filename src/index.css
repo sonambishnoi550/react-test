@@ -261,27 +261,6 @@ body {
 .max-w-50 {
     max-width: 50px;
 }
-
-.table-heading {
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 15.6px;
-    text-align: left;
-}
-
-.table-text {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16.8px;
-    text-align: left;
-}
-
-.table-data {
-    font-size: 8px;
-    font-weight: 400;
-    line-height: 9.6px;
-    text-align: left;
-}
 .competition-container {
     max-width: 1160px !important;
     margin: 0 auto;
@@ -294,14 +273,11 @@ body {
     width: 100%;
 }
 
-
 .competition-table {
   width: 100%;
   border-collapse: collapse;
   background-color: #026070;
 }
-
-
 .second-heading {
   font-size: 46px;
   font-weight: 600;
@@ -402,14 +378,10 @@ thead tr th {
 .border-b-none {
   border-bottom: none !important;
 }
-
-
 .fee-heading {
   font-size: 8px;
   max-width: 64px;
 }
-
-
 
 .use-effect-text {
     font-size: 24px;
@@ -418,10 +390,9 @@ thead tr th {
 .cursor-pointer {
     cursor: pointer;
 }
-
-.px-sm {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+.px-sm{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 @media(max-width:1200.98px) {
@@ -439,6 +410,10 @@ thead tr th {
         padding-top: 70px;
         padding-bottom: 70px;
     }
+        .px-sm {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
 }
 
 @media(max-width:1023.98px) {
@@ -446,6 +421,12 @@ thead tr th {
         padding-bottom: 30px;
         margin: 0;
     }
+        
+
+.competition-text {
+    max-width: none;
+    width: 100%;
+}
 
     .max-md-flex-wrap {
         flex-wrap: wrap;
