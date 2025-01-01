@@ -4,9 +4,8 @@ import { CARDS_ITEMS } from '../../utils/helper';
 const Cards = () => {
     const [searchParams, setSearchParams] = useSearchParams();
     const handleClick = (card) => {
-        setSearchParams({ card: card.replace(/ /g, '-') });
+        setSearchParams({ card: card.replace(/ /g, '-').toLowerCase() });
     };
-    const Card = searchParams.get('card');
     return (
         <div className="container row row-gap-4 mx-auto py-5">
             <h2 className=' text-black text-center'>Cards Params</h2>
