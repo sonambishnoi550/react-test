@@ -3,14 +3,14 @@ import Competition from '../about/Competition'
 import Counter from '../about/Counter'
 import Counting from '../about/Counting'
 import Count from '../about/Count'
-import Card from '../about/Card'
+import Cards from '../about/Cards'
 const About = () => {
   return (
       <div><Competition />
           <Counter />
           <Counting />
           <Count/>
-          <Card/>
+          <Cards/>
       </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSearchParams } from 'react-router';
 import { CARDS_ITEMS } from '../../utils/helper';
-const Card = () => {
+const Cards = () => {
     const [searchParams, setSearchParams] = useSearchParams();
     const handleClick = (card) => {
         setSearchParams({ card: card.replace(/ /g, '-') });
@@ -14,7 +14,7 @@ const Card = () => {
                 <div className="col-lg-4 col-md-6 col-sm-12" key={i}>
                     <div
                         onClick={() => handleClick(card.heading)}
-                        className={`card bg-white p-2 `}>
+                        className={`card bg-white p-2 cursor-pointer`}>
                         <h2 className={`text-center cursor-pointer text-black`} >
                             {card.heading}
                         </h2>
@@ -28,4 +28,4 @@ const Card = () => {
     );
 };
 
-export default Card;
+export default Cards;

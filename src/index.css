@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'avantt';
     src: url("../public/assets/fonts/AvanttTRIAL-Regular-BF6721a86b1a848.otf");
@@ -9,7 +8,9 @@
     font-family: 'avantt';
     src: url("../public/assets/fonts/AvanttTRIAL-SemiBold-BF6721a86b1576e.otf");
     font-weight: 600;
-} 
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +24,6 @@
 .product-spacing {
     padding-top: 72px;
     padding-bottom: 72px;
-    max-width: 1440px;
 }
 
 .dark-black {
@@ -147,8 +147,8 @@
     grid-row: 3/4;
 }
 
-.max-w-300 {
-    max-width: 300px;
+.max-w-500 {
+    max-width: 500px;
 }
 
 .count {
@@ -244,9 +244,15 @@
 }
 
 .Competition-td {
-    padding: 18px 21px;
+    padding: 18px 21px !important;
     border-top: 0.75px solid;
     border-bottom: 0.75px solid;
+}
+
+.Competition-padding {
+    border-top: 0.75px solid;
+    border-bottom: 0.75px solid;
+    font-size: 14px;
 }
 
 .Competition-td:last-child {
@@ -282,7 +288,11 @@ thead tr th {
 
 .fee-text {
     font-size: 8px;
-    max-width: 64px;
+    max-width: 64px !important;
+}
+.fee-padding{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
 }
 
 .cursor-pointer {
@@ -293,6 +303,115 @@ thead tr th {
     padding-left: 0;
     padding-right: 0;
 }
+
+@media(max-width:1200.98px) {
+    .product-pera {
+        width: 100%;
+        max-width: none;
+    }
+
+    .max-w-674 {
+        max-width: none !important;
+        width: 100%;
+    }
+
+    .max-lg-py {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .px-sm {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main-heading {
+        padding-bottom: 30px;
+        margin: 0;
+    }
+}
+
+@media(max-width:1023.98px) {
+    .competition-text {
+        max-width: none;
+        width: 100%;
+    }
+
+    .max-md-flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .product-px {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .g-items5 {
+        grid-column: 3/5;
+        grid-row: 1/2;
+    }
+
+    .g-items2 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .g-items1 {
+        grid-column: 5/6;
+        grid-row: 1/2;
+    }
+
+    .g-items6 {
+        grid-column: 6/7;
+        grid-row: 1/2;
+    }
+
+    .g-items10 {
+        grid-column: 5/7;
+        grid-row: 2/3;
+    }
+
+    .g-items7 {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .g-items4 {
+        grid-column: 3/5;
+        grid-row: 2/3;
+    }
+
+    .g-items9 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .g-items11 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .g-items12 {
+        grid-column: 3/5;
+        grid-row: 3/4;
+    }
+
+    .g-items8 {
+        grid-column: 5/6;
+        grid-row: 3/4;
+    }
+
+    .g-items3 {
+        grid-column: 6/7;
+        grid-row: 3/4;
+    }
+
+    .product-pera {
+        width: 100%;
+        max-width: none;
+    }
+}
+
 @media(max-width:575.99px) {
     .main-heading {
         font-size: 32px;
@@ -383,114 +502,3 @@ thead tr th {
         flex-direction: column !important;
     }
 }
-
-@media(max-width:1023.98px) {
-    .competition-text {
-        max-width: none;
-        width: 100%;
-    }
-
-    .max-md-flex-wrap {
-        flex-wrap: wrap;
-    }
-
-    .product-px {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .g-items5 {
-        grid-column: 3/5;
-        grid-row: 1/2;
-    }
-
-    .g-items2 {
-        grid-column: 1/3;
-        grid-row: 1/2;
-    }
-
-    .g-items1 {
-        grid-column: 5/6;
-        grid-row: 1/2;
-    }
-
-    .g-items6 {
-        grid-column: 6/7;
-        grid-row: 1/2;
-    }
-
-    .g-items10 {
-        grid-column: 5/7;
-        grid-row: 2/3;
-    }
-
-    .g-items7 {
-        grid-column: 1/3;
-        grid-row: 2/3;
-    }
-
-    .g-items4 {
-        grid-column: 3/5;
-        grid-row: 2/3;
-    }
-
-    .g-items9 {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-
-    .g-items11 {
-        grid-column: 2/3;
-        grid-row: 3/4;
-    }
-
-    .g-items12 {
-        grid-column: 3/5;
-        grid-row: 3/4;
-    }
-
-    .g-items8 {
-        grid-column: 5/6;
-        grid-row: 3/4;
-    }
-
-    .g-items3 {
-        grid-column: 6/7;
-        grid-row: 3/4;
-    }
-
-    .product-pera {
-        width: 100%;
-        max-width: none;
-    }
-}
-
-@media(max-width:1200.98px) {
-    .product-pera {
-        width: 100%;
-        max-width: none;
-    }
-
-    .max-w-674 {
-        max-width: none !important;
-        width: 100%;
-    }
-
-    .max-lg-py {
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-
-    .px-sm {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .main-heading {
-        padding-bottom: 30px;
-        margin: 0;
-    }
-}
-
-
-

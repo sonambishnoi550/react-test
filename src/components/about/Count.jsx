@@ -12,9 +12,9 @@ const Counter = () => {
     }, [count]);
     return (
         <div className="container text-center mt-5">
-            <div className="card mx-auto max-w-300">
-                <div className="card-body">
-                    <h5 className="">Counting UseEffect</h5>
+            <div className="card mx-auto max-w-500">
+                <div className="card-body p-5">
+                    <h2 className="Map-heading">Counting UseEffect</h2>
                     <p className="count m-0">{count}</p>
                 </div>
             </div>

@@ -1,8 +1,8 @@
 import React from 'react'
 const Product = () => {
     return (
-        <div className='product-spacing dark-black product-px min-vh-100 '>
-            <div className='container max-w-1140px'>
+        <div className='product-spacing dark-black product-px min-vh-100 w-100 d-flex align-items-center justify-content-center '>
+            <div className='container max-w-1140px mx-auto'>
                 <div className='flex-xl-row d-flex flex-column gap-4'>
                     <div className=' product-card-spacing light-blue radius-16'>
                         <h1 className='main-heading text-white m-0'>Product</h1>

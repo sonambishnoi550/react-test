@@ -36,11 +36,11 @@ const Competition = () => {
                                 <tbody>
                                     {COMPETITION_ITEMS.map((item, i) => (
                                         <tr key={i}>
-                                            <td className={`text-white fw-normal Competition-td b border-black bg-transparent border-b-none ${i === 3 ? 'max-w-95' : ''}`}>{item.brand}</td>
+                                            <td className={`text-white fw-normal Competition-padding b border-black bg-transparent border-b-none ${i === 3 ? 'max-w-95' : ''}`}>{item.brand}</td>
                                             <td className={`bg-white Competition-td border-black border-b-none text-center fee-text ${i === 5 ? 'x-radius-bottom ' : ''} `}>{item.rift}</td>
                                             <td className={`bg-white Competition-td border-black border-b-none text-center fee-text ${i === 5 ? 'x-radius-bottom ' : ''} `}>{item.taxscout}</td>
                                             <td className={`bg-white Competition-td border-black border-b-none text-center fee-text ${i === 5 ? 'x-radius-bottom ' : ''}`}>{item.coconut}</td>
-                                            <td className={`bg-dark-aqua Competition-td border-black border-b-none text-center fee-text ${i === 5 ? 'x-radius-bottom px-sm' : ''}`}>{item.pie}</td>
+                                            <td className={`bg-dark-aqua Competition-td border-black border-b-none text-center fee-padding fee-text ${i === 5 ? 'x-radius-bottom px-sm' : ''}`}>{item.pie}</td>
                                         </tr>
                                     ))}
                                 </tbody>
